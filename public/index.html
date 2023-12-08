@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id ="pet-form">
+        <input type="text" name="pet name" required>
+        <label>Pet Name</label>
+        <input type="text" name="pet profile picture url" requiered>
+        <label>Pet Profile Picture URL</label>
+        <img src="https://via.placeholder.com/150">
+        <fieldset requiered> 
+            <legend>Species</legend>
+            <input type="radio" name="species" value="Dog">
+            <label>Dog</label>
+            <input type="radio" name="species" value="Cat">
+            <label>Cat</label>
+            <input type="radio" name="species" value="Bird">
+            <label>Bird</label>
+        </fieldset>
+        <label>Are they friendly?</label>
+        <input checkbox type="checkbox" name="Are they friendly?"> 
+        <input type="submit" value="Add Pet">  
+    </form> 
+</body>
+</html>
